@@ -2,8 +2,11 @@
 A small go app. intended for an AWS EC2 instance. Performs a snapshot of an AWS RDS database with a configured .env
 ___
 <h3>DEPENDENCIES:</h3>
-- Requires [aws-sdk-go](https://github.com/aws/aws-sdk-go)
-- Requires [godotenv](https://github.com/joho/godotenv)
+- Requires aws-sdk-go
+(https://github.com/aws/aws-sdk-go)
+
+- Requires godotenv
+(https://github.com/joho/godotenv)
 
 ___
 <h3>INSTRUCTIONS:</h3>
