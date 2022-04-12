@@ -2,7 +2,6 @@ package main
 
 import (
 	"errors"
-	"fmt"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/rds"
@@ -82,7 +81,6 @@ func main() {
 	Session := createSession()
 	_, resErr := createSnapshot(Session)
 	if resErr != nil {
-		fmt.Println("resErr took place")
 		log.Fatal(resErr)
 	}
 
